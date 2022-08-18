@@ -158,6 +158,36 @@ O PO está perto do pessoal de desenvolvimento para poder tirar duvidas.
 
         Tamanho da user store(se é dificil ou não) BV (VALOR DE NEGÓCIO) e o teste de aceitação
  
+       
+        ## User Story: Testes de Aceitação
+        
+        Os ATs são escritos na na linguagem de dominio do negócio.
+        
+        Testes de aceitação são fruto da conversação entre PO e time de desenvolvedores. De fato os testes de aceitação são testes funcionais, testes de caixa preta, eles vão olhar se o software cumpre o requisito, aqui olhamos o resultado. A user store atingiu o resultado.
+        Os testes de aceitação são implementados durante a Sprint(que é a interação no desenvolvimento de software), nesse sprint antes de começar a codificação
+        eu devo ter os testes de aceitação, mas no Sprint 0 , fica dificil definir bons testes de aceitação, mas no decorrer será feito novos testes pois terão mais informações.
+        ![image](https://user-images.githubusercontent.com/52088444/185479783-26b851a1-0930-4e76-a312-ca775c879f59.png)
+
+        ATS ajudam o PO e o time de desenvolvimento a confirmar que a User Story foi codificada corretamente. Os testes de aceitação são informais. 
+        
+   ![image](https://user-images.githubusercontent.com/52088444/185479689-18f5e576-4c6e-4179-8026-3f62d440e401.png)
+
+        Cerimonia onde vou apresentar/demonstração do código ou implmentação. Quando o time de desenvolvimento chega nesse ponto do demo , quer dizer que eles estão satisfeitos com os testes de aceitação. é feito uma demonstração publica, e o PO sabe o que está acontecendo.
+        O PO pode não aceitar parciamente, ou total. Ou pode aceitar 100% . 
+        Caso não tenha sido aceita , a User Story passa para o próximo Sprint para ser refeita , o código pode ser refeito, ou seja um recomeço. 
+        
+        ![image](https://user-images.githubusercontent.com/52088444/185480545-62820774-bc55-421d-b811-f41e0fd7b48d.png)
+        
+      Exemplo de Uma User Story:
+        ![image](https://user-images.githubusercontent.com/52088444/185480999-81c6ddd5-e1de-465f-8793-28b84c193e45.png)
+
+        ![image](https://user-images.githubusercontent.com/52088444/185481135-6aacd652-0cf3-4c2a-9dbd-dca6d289a1e7.png)
+
+
+   ## User Story: Caracterização de Papéis de Usuário
+        
+        
+        
         
 
 ## Referencias
