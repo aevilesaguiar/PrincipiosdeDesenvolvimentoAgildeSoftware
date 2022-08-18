@@ -33,9 +33,65 @@ Não é que nenhuma documentação será gerada durante o projeto, mas ela só s
 
 
 ## Colaboração com o cliente mais que negociação de contratos
-Responder a mudanças mais que seguir um plano
+
+- Dar mais enfase na colaboração com o cliente mais que negociação de contratos;
+- Você não pode escolher  que você deve ser o maior interessado no sucesso do projeto, Muitas vezes o cliente não tem maturidade de definir tudo no início do
+ projeto. O ideal é trabalhar junto com o cliente ao invés de disputar, no contrato deve  ter mecanismos para facilitar para colaborar com o cliente, mudança
+ no início do projeto é positivo, menos perdas, ou seja vamos ouvir o cliente refinando o projeto. Ágil é reagir as mudanças com agilidade. O contrato não deve ser um escudo.
+
+
+## Responder a mudanças mais que seguir um plano
+
+No tradicional qualquer mudança que atrapalha o planejamento é vista como uma coisa ruim. O feedback do  cliente geralmente irá resultar em mudanças para o projeto, e consequentemente para o planejamento. Muitas vezes seguir o plano virá o foco do projeto e não a entrega.
+
+No desenvolvimento se, se utiliza várias práticas para tornar rápida a resposta a mudanças. O detalhamento do planejamento é feito de forma a poder ser alterado mais facilmente , um exemplo é o Kanban que facilmente pode ser alterado, mas sem nível de detalhamento.
+
+TDD e refatoração são técnicas para deixar o código mais fácil de ser alterado.
+
 
 Agil é diferente de Rápido.
+
+
+## Scrum&XP: A Forma Como Fazemos Software
+
+- Modelagem Tradicional
+Evita mudanças em requisitos
+Análise antes da implementação
+Entrega software apenas no final
+
+- Modelagem Ágil
+Aceita mudança em requisitos
+Usa feedvack e colaboração do cliente e também do time de desenvolvedores
+Entrega software frequentemente de partes do softeware
+
+![image](https://user-images.githubusercontent.com/52088444/185462891-eb22cfd0-c809-4262-817d-30f8860d14c2.png)
+
+A parte gerencial do scrum está por fora , um exemplo no scrum nos temos o sprint corresponde as interações do XP. E no XP nós temos o TDD.
+
+As empresas escolhem as melhores práticas para se usar.
+![image](https://user-images.githubusercontent.com/52088444/185463079-d6644548-32ec-4790-997c-f920aa10fe27.png)
+
+![image](https://user-images.githubusercontent.com/52088444/185463419-9ff3a034-4d22-45b3-bca5-180552b5b601.png)
+
+## User Story: O que é?
+
+Scrum-> PO:Product Owner Dono do produto
+XP-> Cliente -Customer
+
+Ele acompanha a equipe de desenvolvimento, do inicio ao fim, ele esclarece o que precisa ser feito no software, ele define a cara do software.
+
+Quais são os requisitos?
+Podemos usar funcionalidades, casos de uso ou user stories. 
+
+
+O que é uma User Story?
+Descreve uma funcionalidade que o PO gostaria de ver em seu produto.
+A perspectiva é do PO(Dono do produto), ele descreve as users stories na linguagem do cliente, seria importante se ele escrevesse as U.S.
+
+Podemos escrever através das seguintes perguntas:
+Who? What? why?
+quem? o que? Por quê?
+
 
 
 
