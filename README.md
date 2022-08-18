@@ -184,11 +184,44 @@ O PO está perto do pessoal de desenvolvimento para poder tirar duvidas.
         ![image](https://user-images.githubusercontent.com/52088444/185481135-6aacd652-0cf3-4c2a-9dbd-dca6d289a1e7.png)
 
 
-   ## User Story: Caracterização de Papéis de Usuário
+   ## User Story: Caracterização de Papéis de Usuário( User roles)
         
+        a User Story tem pelo o menos 3 elementos.
         
+        ![image](https://user-images.githubusercontent.com/52088444/185481521-45c4349d-c488-4409-b87a-15369d059b37.png)
+
         
+       ![image](https://user-images.githubusercontent.com/52088444/185481610-4825214c-3e95-4d08-a98a-a256c236a059.png)
+
+User Role(tipo de usuario)
         
+![image](https://user-images.githubusercontent.com/52088444/185481860-f25c5ece-9814-4b41-9898-641478d39799.png)
+   ![image](https://user-images.githubusercontent.com/52088444/185482102-a7a24740-db48-45ad-abee-8275523da9f0.png)
+
+        o USER Role nem sempre é representado por pessoas, pode ser hardware, sistema
+        
+     Para começar o desenvolvimento de uma aplicação temos que desenvolver a visão da Aplicação e no nosso caso é um documento de requisitos que descreve o que o sistema vai fazer , e vai guiar todos os envolvidos, PO , dev, pessoas e=interessadas no que se deve fazer no desenvolvimento.
+        
+        Coloca-se requisitos funcionais não funcionais , tipos de usuario. E apartir disso o PO desenvolve as Users Storys.
+        
+        Ex:
+        
+        ![image](https://user-images.githubusercontent.com/52088444/185482739-25a6f066-0667-48e4-b918-363113678c5a.png)
+
+        Papeis de Usuarios(User Roles)
+        
+        Os papeis de Usuarios no caso desse sistema: 
+        Essa visão está definição esta sendo extraida da visão do usuario , e tem a ver com o Valor do negócio e fica com o Product Owner.
+    ![image](https://user-images.githubusercontent.com/52088444/185483609-c870a6d2-b3a8-43d4-ae7a-84f4e9547e19.png)
+
+        Podemos ter vários tipos de clientes
+        Padrão e premium eu crio sub papeis
+        
+      ![image](https://user-images.githubusercontent.com/52088444/185483776-86e7408e-9c20-49f8-b9a8-c7a28211b03d.png)
+  
+        ## Fluxograma
+        ![image](https://user-images.githubusercontent.com/52088444/185483851-c3209360-ece9-40b7-bffa-da33abf2134a.png)
+
 
 ## Referencias
 
