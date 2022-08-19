@@ -222,9 +222,51 @@ User Role(tipo de usuario)
         ## Fluxograma
         ![image](https://user-images.githubusercontent.com/52088444/185483851-c3209360-ece9-40b7-bffa-da33abf2134a.png)
 
+## Visão da Aplicação no modelo Ágil (Scrum x XP)
+
+No inicio do Scrum eu defino um Sprint Zero , eu antecipo o que eu quero fazer. Ele possui duração de duas semanas. E eu tenho duas coisas essenciasis que
+tenho que definir a "Visão da Aplicação"(diz qual a direção vou tomar) e o segundo item é o Backlog do produto( conjunto de User Storys que vão representar de maneira formal os requisitos do ususario que estão expressos na visão da aplicação)
+
+
+
+![image](https://user-images.githubusercontent.com/52088444/185606273-df090b95-07bc-485b-b135-6c1b6a9daca5.png)
+
+Eduf :Projeto Suficiente antecipadamente.
+
+O resultado final do Sprint zero é ter informações que der condição para iniciar, ou  seja terá mais segurança.
+
+A visão da aplicação serve para direcionar a equipe de desenvolvimento. Pois ela descreve o porque o produto está sendo realizado. Descreve qual o estado final desejado.
+Vamos envolver o time de desenvolvedor, marketing, designer de produto, designer de interface e partes interessadas.
+
+
+## Visão da Aplicação: O Que É?
+
+Existem dois lados para a visão da aplicação que é  Visão ou valor de Negócios e Necessidades dos clientes ou dos User Roles.
+
+Identificamos os papeis, as necessidades e através das necessidades vamos desenvovler os requisitos.
+
+Na segunda parte identificamos os atributos do produto.
+ - Requisitos funcionais:(O software foi feito para atendeer essas necessidades que são especificas para o tipo de usuario)
+ Fazer uma chamada telefonica
+ Enviar um email
+
+- Requisitos não funcionais(olha tudo de maneira global, e são influenciados pela visão de negócio)
+Performance(Desempenho do software)
+Robustez( que se algo parar , tudo não pode parara)
+Usabilidade
+
+
+Os cuidados que temos que tomar no desenvolvimento da visão da aplicação:
+-subestificação( especificar rapidamente com poucos elementos, não consegue ver o suficiente para desenvolver o software)
+-Superespecificação( não perder muito tempo fazendo uma documentação detalhada)
+- EDUF- Especificação suficiente( dar segurança com as informações para a equipe0
+
+
+
+
+
 
 ## Referencias
 
 - https://agilemanifesto.org/iso/ptbr/manifesto.html
 
-As a <tipo de usuario> 
