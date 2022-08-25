@@ -262,6 +262,29 @@ Os cuidados que temos que tomar no desenvolvimento da visão da aplicação:
 - EDUF- Especificação suficiente( dar segurança com as informações para a equipe0
 
 
+## Criar informalmente Users Stories
+
+User Stories: norteiam todo o desenvolvimento de software, ela srá o guia para que a equipe de desenvolvimento irá fazer, por isso da importancia do User Stories.
+As melhores US são obtidas através do PO e da equipe, o PO é muito importante nessa hora, As Users Stories são definidas em cima da Visão da aplicação.
+- Dicas para criar as Users Stories
+
+ Foco "no que fazer"( não em como fazer, pois o PO geralmente não tem muito conhecimento em desenvolvimento , por isso da importancia da participação do time de desenvolvimento.
+Envolva o PO na escrita das User Stories. Ele é fundamental , é crítico, pois ele conhece o valor do negócio, conhece a linguagem do usuario, na linguagem do domínio do negócio, pois ele discute com usuarios, clientes.
+ Manter as User Stories Curtas( devem ser curtas por que são um lembrete para conversação)
+ Crie User Stories com base em : who(quem vai interagir com o sistema) , what(qual o objetivo do tipo de usuario com a interação com o sistema) , why (qual o motivo de star fazendo isso) isso ajuda o time de desenvolvimento, principalmente na hora de desenvolver os testes de aceitação, lembrando que why é opcional.
+ Tendo why ajuda a criar os testes de aceitação, tendo who e what dá para levantar o tempo de desenvolvimento.
+ 
+ ## Receita para criar User Stories
+    
+Essa receita ocorre na reunião onde vai definir as User Stories, essa reunião é feita comandada pelo o PO junto com a equipe. 
+
+![image](https://user-images.githubusercontent.com/52088444/186547119-edece9f5-cbe8-4b85-8b6b-545e96dfead6.png)
+Sempre vai existir um tipo de usuario, mas pode existir k tipos de usuarios. Ler a visão e ir obtendo os tipos de usuario.
+Ex tipos de Usuarios:
+![image](https://user-images.githubusercontent.com/52088444/186547242-da8fdf34-0a5d-417d-9875-3d352b843f36.png)
+Objetivos do Usuario Admin
+![image](https://user-images.githubusercontent.com/52088444/186547279-85fc14fb-9217-45ea-abb4-b5138fef9f74.png)
+![image](https://user-images.githubusercontent.com/52088444/186547353-f40e3a6e-62d8-47e3-908f-58614a3dcac2.png)
 
 
 
