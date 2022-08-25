@@ -285,9 +285,33 @@ Ex tipos de Usuarios:
 Objetivos do Usuario Admin
 ![image](https://user-images.githubusercontent.com/52088444/186547279-85fc14fb-9217-45ea-abb4-b5138fef9f74.png)
 ![image](https://user-images.githubusercontent.com/52088444/186547353-f40e3a6e-62d8-47e3-908f-58614a3dcac2.png)
+No nosso exemplo o k é igual a 5
+![image](https://user-images.githubusercontent.com/52088444/186547491-bbb46d2b-c5c5-45bf-a541-56c31bbd8dbf.png)
+Estrutura:
+![image](https://user-images.githubusercontent.com/52088444/186547507-cb3e0072-7483-4da7-a4db-666929cc5bf4.png)
+ou fazer em uma linha
+![image](https://user-images.githubusercontent.com/52088444/186547580-6e039d11-1e3d-4151-97ed-6fbf7cebca00.png)
 
+## exemplo de como criar a receita do Exemplo Livros a jato
 
+APLICAÇÃO: LIVROS A JATO
+GRUPO: PO E GRUPO DE DESENVOLVIMENTO
+PASSO 1: IDENTIFICAMOS OS USER ROLES
+![image](https://user-images.githubusercontent.com/52088444/186547821-47cb8967-e707-466d-84d9-3921f766d42d.png)
+![image](https://user-images.githubusercontent.com/52088444/186547841-dce2b979-1c0d-44d2-9862-eea6ed21e34b.png)
+Todos os objetivos do visitante o cliente também possui como procurar ebook, listas ebooks, registra-se no site, e quando eu falo de cliente eu falo de cliente padrão e Premium mas as suas outras funções
 
+User stories
+![image](https://user-images.githubusercontent.com/52088444/186548026-336ff8e0-4022-474b-b79b-4287c43d0b13.png)
+
+User Stories descritos acima são chamados de EPIC(EPICOS) pois são muito grandes, e são quebradas como mostra-se abaixo:
+![image](https://user-images.githubusercontent.com/52088444/186548148-ca31765c-43ae-4954-afff-9f665a456583.png)
+![image](https://user-images.githubusercontent.com/52088444/186548259-4d55d74c-793b-4b1b-a6a7-6adf86e441ad.png)
+
+![image](https://user-images.githubusercontent.com/52088444/186548325-dc479ef9-1d70-4511-a017-f8a9a9d996f5.png)
+        
+![image](https://user-images.githubusercontent.com/52088444/186548350-a9513047-8762-4376-8941-8c3e9cdb2db8.png)
+![image](https://user-images.githubusercontent.com/52088444/186548386-aa62393a-d284-4811-b2a6-a841df30b163.png)
 
 ## Referencias
 
