@@ -448,7 +448,36 @@ Backlog de produto é uma lista de User Stories em que você vai definindo a pri
 Bussiness ValuE dar a prioridade(BV);
 
 
+## Programação em Pares(Per Programmer)
+        
+![image](https://user-images.githubusercontent.com/52088444/187075799-7884de99-2b8a-4c15-8894-8adf4a19cc8c.png)
+Duas pessoas trabalhando na mesma tarefa. 
+        
+O piloto é o programador , ele foca na linha de software que está escrevendo, sintaxe da linguagem e etc, e também temos o co-piloto possui uma visão mais ampla do contexto, classe, software, próximos passos e etc, ele tem visão global do software ele ajuda o piloto quando ele precisar.
+O que ganho utilizando programação em pares?
+O desenvolvimento ágil possui diversas técnicas que exigem disciplina como criação de testes automatizados e refatoração.
+        
+Essa técnica evita que desenvolvedores percam o foco e se distraiams com outras coisas.
+        
+Existe transferencia de conhecimento técnico e do negócio entre pessoas da equipe.Existe uma melhora significativa na qualidade do código , visto que a revisão de código aconteça de forma simutânea a sua criação.
+        
+## Pareamento com qualidade
+O co-piloto não deve se colocar como passivo e ficar só observando o que o outro está fazendo. O piloto também não deve sair programando sem dar oportunidade do outro participar.
 
+O primeiro passo quando uma dupla vai trabalhar é discutir como a funcionalidade deve ser implementada. Muitas vezes, só explicando sua ideia para a outra pessoa, ela já amadurece.
+
+O piloto deve procurar explicar o código que está criando para poder receber feedback. Os desenvolvedores podem e devem trocar de posição quandoa acharem mais produtivos.
+ 
+ ## Questões sobre programação em pares
+ - Não perder a privacidade
+ - não perder o foco
+ - prover um ambiente individual e mais pessoal longe do local em que se desenvolve em pares;
+ - tenha consideração por seu par;
+ - o ideal é que seja rotação entre os pares. Pode trocar a cada dia;
+ - Evitar ilhas de conhecimento,  ou seja deve ser feito rotação para desenvolver.
+ - é um mito achar que programação em pares se perde produtividade
+
+ 
 ## Referencias
 
 - https://agilemanifesto.org/iso/ptbr/manifesto.html
