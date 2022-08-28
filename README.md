@@ -493,6 +493,9 @@ Ou seja todo o time senta em frente a uma máquina e um projetor e trabalha em c
 é uma forma excelente de disseminar um conhecimento importante para toda equipe.
 é uma forma de superar desafios muito dificies ou tomar decisões muito importantes.
         
+## Escrevendo users stories mais efetivas
+
+ file:///C:/Users/aesilva/Downloads/_7be75a7d2ad06a07d8be722221a2a1a3_Leitura--Escrevendo-User-Stories-Mais-Efetivas.pdf
         
 ## Referencias
 
