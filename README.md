@@ -448,7 +448,7 @@ Backlog de produto é uma lista de User Stories em que você vai definindo a pri
 Bussiness ValuE dar a prioridade(BV);
 
 
-## Programação em Pares(Per Programmer)
+## Programação em Pares(Pair Programmer)
         
 ![image](https://user-images.githubusercontent.com/52088444/187075799-7884de99-2b8a-4c15-8894-8adf4a19cc8c.png)
 Duas pessoas trabalhando na mesma tarefa. 
@@ -475,9 +475,25 @@ O piloto deve procurar explicar o código que está criando para poder receber f
  - tenha consideração por seu par;
  - o ideal é que seja rotação entre os pares. Pode trocar a cada dia;
  - Evitar ilhas de conhecimento,  ou seja deve ser feito rotação para desenvolver.
- - é um mito achar que programação em pares se perde produtividade
+ - é um mito achar que programação em pares se perde produtividade, se ganha muito na redução de bugs  e a produtividade a longo prazo é pouco afetada;
 
+ ## Como introduzir pair programmer
+ Se houver resistencia, proponha um projeto pequeno para utilizar como piloto e proponha medidas para avaliar os resultados. Ajude os mais tímidos, fazendo os mais experientes quebrarem o gelo e estimular a interação.
+        
  
+ ## Variações em programmer Pair
+Pair Development-> 2 pessoas e uma tarefa(task)
+Eles decidem em fazer tarefas com Pair Programing , ou individualmente em paralelo. A ieia do Pair development é dar responsabilidade compartilhada. No caso de tarefas individuais , um pode testar o código feito pelo o outro.
+        
+Não é necessário parear o tempo todos para se obter vantagens técnicas. A autonomia é do desenvovledor. 
+        
+Mob Programmimg
+É uma técnica em que mais de tres pessoas podem trabalhar no programa.
+Ou seja todo o time senta em frente a uma máquina e um projetor e trabalha em cima do mesmo problema. A ideia é que todos participem .
+é uma forma excelente de disseminar um conhecimento importante para toda equipe.
+é uma forma de superar desafios muito dificies ou tomar decisões muito importantes.
+        
+        
 ## Referencias
 
 - https://agilemanifesto.org/iso/ptbr/manifesto.html
