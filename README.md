@@ -313,7 +313,144 @@ User Stories descritos acima são chamados de EPIC(EPICOS) pois são muito grand
 ![image](https://user-images.githubusercontent.com/52088444/186548350-a9513047-8762-4376-8941-8c3e9cdb2db8.png)
 ![image](https://user-images.githubusercontent.com/52088444/186548386-aa62393a-d284-4811-b2a6-a841df30b163.png)
 
+
+## Análise Ágil: BDUF vs EDUF
+
+
+ «Enough Design Upfront» (EDUF)  antes  do «Big Design Upfront» (BDUF) . Existe também o  «No Design Upfront» (NDUF) .
+ 
+ ##  BDUF 
+ 
+ Big Design Up Front é uma abordagem de desenvolvimento de software na qual o design do programa deve ser concluído e aperfeiçoado antes que a implementação do programa seja iniciada. É frequentemente associado ao modelo em cascata de desenvolvimento de software.
+ 
+ A abordagem BDUF baseia-se na suposição de que todas as necessidades podem ser descritas com precisão desde o início. Em um processo complexo, descreve-se o que o resultado deve ser capaz de fazer, onde estão os possíveis problemas, etc. A implementação só começa quando tudo foi descrito detalhadamente.
+ 
+Esta abordagem remonta ao tempo em que os problemas "simples" ou "complicados" (ver  Cynefin Blog ) dominavam e precisavam ser desenvolvidos. No entanto, os problemas a serem resolvidos hoje tornaram-se muito mais "complicados" ou mesmo "complexos".
+
+A abordagem BDUF é difícil de lidar, porque as mudanças que ocorrem durante a implementação estão associadas a altos custos. Como resultado, muitas coisas sem importância ou necessidades insignificantes são incluídas para não sofrer custos adicionais posteriormente. Em última análise, isso leva a descrições ainda mais extensas e processos mais complexos.
+
+Mas quais são as vantagens do BDUF ?
+
+- Desde que esteja muito claro quais são minhas necessidades e como quero que meu resultado seja, essa é uma abordagem muito eficiente.
+- Como tudo é conhecido, você pode obter uma boa visão geral de tudo desde o início e possíveis conflitos podem ser eliminados antecipadamente.
+- Os custos podem ser calculados e conhecidos - isso dá segurança ao planejamento.
+
+Quais são as desvantagens do BDUF ?
+
+- Desalinhamento do projetado com o executado
+- Surgimento de bugs
+- Documentação desatualizada
+- Desperdício de tempo (pois é detalhado o backlog do qual boa parte é descartada)
+- Custo de mudança(É muito mais barato realizar mudanças enquanto os itens de trabalho são somente ideias ou hipóteses.)
+- Estimativas falhas
+
+O “BIG”, do Big Design Up Front, se refere a grandes lotes de trabalho que, em qualquer etapa de um projeto, tendem sempre a gerar desperdício.
+
+Portanto, o BDUF não costuma apresentar nenhum tipo de benefício e não pode ser confundido com a falta de uma visão mais ampla dos objetivos do projeto, o que é extremamente valioso.
+
+## NDUF(Nenhum projeto adiantado)
+
+O completo oposto do BDUF é o NDUF e, portanto, a forma mais pronunciada da abordagem mais ágil. Você pode iniciar o desenvolvimento quase imediatamente sem ter que investir tempo em um projeto de antemão. Uma visão do produto e um backlog aproximado do produto geralmente servem como ponto de partida, que é criado em uma chamada "iteração zero" ou «Sprint Zero» na primeira iteração produtiva resp. O «Sprint 1» está sendo preparado.
+
+Durante o desenvolvimento, novas entradas e ideias são constantemente adotadas e implementadas. Uma abordagem tão livre requer muita experiência. A maioria corre o risco de desenvolver arquiteturas instáveis ​​e investir recursos em desenvolvimentos que depois se tornam redundantes ou inutilizáveis.
+
+Uma citação apropriada de Dave Thomas, um dos autores do «Manifesto Ágil»: 
+
+"Um grande design na frente é estúpido, mas não fazer nenhum design na frente é ainda mais estúpido." (BDUF é burro, mas NDUF é ainda mais burro.)
+
+
+## EDUF 
+
+A abordagem EDUF diz duas coisas: por um lado, tanto quanto necessário - apenas as necessidades mais importantes (MVP "Minimum Valuable Product") - devem ser definidas antecipadamente e, por outro lado, especifica as necessidades em que ponto no tempo e em que grau de detalhe (cf.  Vision2Code, agilist ) deve estar disponível. É importante nomear essas necessidades, pois elas servem de orientação para o processo de desenvolvimento. No entanto, ainda há espaço para ajustes e adições em andamento.
+
+Por que EDUF?
+
+Combina aspectos de BDUF e NDUF
+Através da determinação grosseira das necessidades, o escopo do projeto pode ser grosseiramente determinado e extrapolado das necessidades mais importantes para as demais necessidades (cf. estimativa relativa,  agilist ,  edorex ). Assim, é possível regular contratualmente o âmbito dos serviços, prazos de entrega e custos.
+Ajustes e novas ideias podem ser levados em consideração continuamente.
+Ambos os parceiros contratuais se beneficiam do que é aprendido durante o processo, já que o desenvolvimento é um projeto conjunto.
+
+Com o BDUF, descrevemos todas as características do veículo como em um catálogo e rapidamente reduzimos que será um carro. Com a abordagem EDUF, fica claro que deve haver um veículo que cubra as necessidades mais importantes. Como eles são explicitamente satisfeitos só se tornará aparente durante o desenvolvimento, porque há mais de uma solução e pode não ser um carro.
+
+O agile.agreement combina as vantagens dos dois extremos BDUF e NDUF usando o Enough Design Upfront. Isso torna possível realizar um  projeto ágil a um preço fixo ou Para obter um teto de custo e  ao mesmo tempo garantir que as  metas  (escopo aberto, tempo fixo e orçamento)  sejam cumpridas  .
+
+![image](https://user-images.githubusercontent.com/52088444/187073608-704371b0-5564-404e-a1a3-31c7512f5f23.png)
+
+
+BDUF(Abordagem Tradicional) 
+Analise Inicial-> Requisitos
+Antecipar todas as informações , e geralmente essa forma de desenvolver é muito rigida, e normalmente o software que você desenvolveu não é o que o cliente pediu.
+
+EDUF(Abordagem ágil, projeto antecipado suficiente)
+Não especificamos a mais, nem a menos, temos uma análise ágil. Só levantamos os requisitos que sejam suficientes para desenvolver o software. Ou seja essa análise Agil compõe o documento chamado visão da aplicação, e ao longo do tempo podemos mudar os requisitos, incluir novos requisitos, e isso é responsabilidade do product Owner.
+
+- Coletar dados usando a visão EDUF( levantamento apenas do necessário)
+Para obter a visão da aplicação é realizado:
+Entrevistas, questionários, observação direta.
+
+- Para refinar user stories criadas informalmente:
+Posso criar workshops( oficinas com PO, Usuarios, clientes stakeholders, entender melhor, a conversação é onde refinamos)
+
+- Entrevistas
+
+Serão utilizadas na maioria de desenvolvimentos ágeis. 
+Serão realizados entrevistas individuais ou em pequenos grupos. Lembrando que é importante usar o viés de Users Stories.
+O nosso interesse é Identificar tipos de usuarios e suas necessidades e quais seus objetivos com o sistema.
+Com essas entrevistas a nossa intenção é extrair problemas, soluções e restrições do ponto de vista do usuário.
+
+O importante nesse tipo de entrevistas , nas coletas dos requisitos é usar o viés USSS:
+PARTES who, what e why.
+
+Muitas vezes precisaremos de questionários, devido o numero muito grande de usuarios, para poder atingir clientes, usuarios e stakeholders, lembrando que questionários não podem ser utilizados como única ferramenta, e sim como completo. Os mesmos devem ser bem escritos, identificar tendencias entre os usuarios.
+Os formulários devem ser complementos de entrevistas, pois é necessários ouvir os usuários em seus locais, para ver quais ferramnetas ele está usando, quais dificuldades com a tecnologia, pode ser interface com o usuário, tipo o equipamento ambiente.
+
+Ao final das coletas teremos uma grande quantidade de informação , e aprtir disso analisar e gerar a visão da da aplicação.
+Ou seja os pilares que ajudam a  gerar a visão da aplicação são as: entrevistas, observação direta e questionários.
+
+## Como utilizar o Wokshop para refinar as US que foram derivadas da visão da aplicação.
+
+![image](https://user-images.githubusercontent.com/52088444/187074530-d34c7ad0-e60e-4bd6-a9e2-aace868dbc30.png)
+
+Nessa parte nós queremos o suficiente(EDUF).
+
+Os workshops são usadas para exainar e refinar user stories já criadas.
+
+O que fazemos nos Workshops?
+
+Como podemos melhorar a busca de livros?
+Que informações adicionais o usuário poderia precisar?
+Por que o cliente Premium tem que pagar apenas pelo o paypal?
+
+Examinar e quebrar user stories do tipo epic.
+Definir os Whys e ATs (teste de Aceitação)
+Mapear USsa a fluxos de Usuários.
+
+
+## Mapeamento de US nos fluxos de Usuarios;
+
+Fluxos de Usuarios(são todos os tipos de interações que o usuario pode ter com a aplicação);
+O fluxo começa desde quando ele faz  login no website, procura o livro, e ler o ebook.
+
+![image](https://user-images.githubusercontent.com/52088444/187074837-2bd08b79-0091-49e7-a61e-911bb046af7e.png)
+*Varios tipos de fluxo que o cliente pode ter 
+
+Vamos analizar o fluxo Acessar livros pagos;
+
+![image](https://user-images.githubusercontent.com/52088444/187074895-5f5ed2c3-c23e-42f5-94ab-e0e6aa75c8a6.png)
+*eu posso acrescentar novas Us ao fluxo.
+
+Ex: 
+
+![image](https://user-images.githubusercontent.com/52088444/187074946-c66efcec-3434-4107-8779-89793676bff2.png)
+
+Backlog de produto é uma lista de User Stories em que você vai definindo a prioridade através do BV;
+
+Bussiness ValuE dar a prioridade(BV);
+
+
+
 ## Referencias
 
 - https://agilemanifesto.org/iso/ptbr/manifesto.html
+-https://www.agileagreement.com/2020/07/21/enough-design-upfront-vor-big-design-upfront/
 
