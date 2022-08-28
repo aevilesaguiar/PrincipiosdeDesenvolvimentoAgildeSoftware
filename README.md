@@ -495,7 +495,39 @@ Ou seja todo o time senta em frente a uma máquina e um projetor e trabalha em c
         
 ## Escrevendo users stories mais efetivas
 
- file:///C:/Users/aesilva/Downloads/_7be75a7d2ad06a07d8be722221a2a1a3_Leitura--Escrevendo-User-Stories-Mais-Efetivas.pdf
+Escrevendo User Stories Mais Efetivas
+Nós mostramos como definir, de forma informal, user stories nas seguintes
+videoaulas: Dicas para Criar Informalmente User Stories, Receita para Criar
+Informalmente User Stories, Exemplo de Criação Informal de User Stories: Parte 1 e
+Exemplo de Criação Informal de User Stories: Parte 1. O papel dos 3 Cs, em especial
+da Conversação, é essencial para se produzir código de qualidade a partir das user
+stories desenvolvidas informalmente. Mas nem sempre isso acontece de forma fácil.
+Muitas vezes as user stories não são muito boas e tornam o trabalho do time de
+desenvolvimento mais difícil e menos produtivo.
+Bill Wake, com objetivo de tornar o processo de definição mais formal e tentar
+garantir user stories mais efetivas, que facilitem o trabalho posterior de
+implementação, propôs o INVEST, um conjunto de diretrizes mais formais para
+definição de user stories.
+Definição
+INVEST é um acrônimo que ajuda a lembrar 6 critérios ou diretrizes amplamente
+aceitos. Forma, de fato, uma lista de verificação para avaliar a qualidade de uma
+história de usuário. Se a história não atender a um desses critérios, a equipe pode
+querer reformulá-la, ou mesmo considerar uma reescrita da história, que muitas vezes
+se traduz em rasgar fisicamente o velho cartão de história e escrever um novo.
+Assim, uma boa história de usuário deve seguir as seguintes diretrizes:
+“I” – Independente de todas as outras user stories quanto ao valor de negócio (BV
+ou Business Value)
+“N” – Negociável: não é um contrato definitivo para o requisito; de fato, é apenas
+o ponto inicial!
+“V” – Valiosa para o cliente, PO ou stakeholder: O BV é dado pelo PO, em nome
+de clientes e stakeholders
+“E” – Estimável, com uma boa aproximação;
+“S” – (Small) Pequena, de modo a caber dentro de uma iteração
+"T" – Testável: em princípio, mesmo se ainda não houver um teste especificado
+para ela
+Explanação e Exemplos
+Suponha um app para tirar foto e identificar animal na natureza! O tipo do usuário é
+um usuário comum, que tem o seguinte fluxo de ações para essa necessidade:
         
 ## Referencias
 
