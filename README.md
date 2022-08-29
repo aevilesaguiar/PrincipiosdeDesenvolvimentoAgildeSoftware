@@ -545,8 +545,59 @@ Geralmente nós temos 3 tipos de pessoas
 
 
 
+## Papel do PO
+O PO serve como ponte entre usuario/stakeholder e time de desenvolvimento. PO responsável pela Visão da aplicação. As Users Stories pode ser escrita pelo o PO, mas pode ser sugerida por todos da equipe, e aprtir dai eles vão para o backlog, ele prioriza o backlog e quais as US serão desenvolvidas primeiro. 
+        
+![image](https://user-images.githubusercontent.com/52088444/187194857-5afc42a0-11bc-4304-b14c-fdd9730adf86.png)
 
+O PO pode ou não aceitar a implementação da Users Stories. Na hora da reunião de sprint Review/demo ELE PODE ACEITAR OU REJEITAR, OU ACEITAR PARCIALMENTE CADA INCREMENTO DE PRODUTO;
+        
+## Time de desenvolvedores 
+As principais características do time de desenvolvimento é que ele possua 7+-2 ou seja 3 grupos de dois. Quanto mais gente maior interação e maior a complexidade. O time deve ficar localizado em uma sala , apenas. O PO fica na sala do lado do time. O time Scrum é multifuncional, várias tecnologias /competencias. Auto organizado, auto-gerenciado, pode alterar o tipo de metodologia, o PO e Scrum Master não mandam no time. Se negocia os compromissos com o PO. o TIME DE DESENVOLVIMENTO É QUEM DECIDE.
+![image](https://user-images.githubusercontent.com/52088444/187195997-e00d337f-40cc-482e-8f60-f4d18caa0d04.png)
 
+Tem autonomia para atender aos compromissos assumidos, desde que eles cumppram o compromisso e passem pelos os testes de aceitação.
+Responsabilidade do time como um todo;
+        
+## Scrum Master
+O papel do Scrum Master e suas características. Ele se preocupa com o processo do scrum/xp e como o processo está sendo desenvoldido se todos compreenderam , ele treina o PO e o time sobre as boas práticas do scrum e xp, treina usuarios, clientes, stakeholders. O papel dele é remover qualquer coisa que possa impedir o desenvolvimento. Exemplo de empedndimentos, inserir um novo software, relacionamento entre pessoas, inserir um novo hardware. Todos relatam pra ele, ou ele percebe pela observação e pelo feedback que ele tem, ele vai então tentar remover esses impedimentos. Outra coisa: todas as reuniões, praticamente, do Scrum, ele que vai ser o facilitador. Veja, ele não é o que manda, não; ele facilita. Geralmente é o SM que conduz a reunião. Ele quem zela pelas as práticas do scrum e XP. 
+Ele tem o papel de proteger o time de interferencia externa, não pode conversar com a equipe , se for aspecto tecnico é com o PO, se for aspectos de bem estar é com o Scrum Master, geralmente nas reuniões. O scrum master não é chefe, todos tem o mesmo nível, o SM ele facilita, ele não é o gerente. O SM conduz a melhoria continua, atravéz da observação, backlog, ele verifica se a velocidade do processo através dos stories, reuniões formais do scrum/xp. Melhoria do software significa: melhoria de qualidade e melhoria no tempo. 
+
+## Implementando uma User Story
+        
+O que significa implementar uma User Story? User story é composto por what, who e why. What corresponde ao requisito que queremos implementar.
+
+![image](https://user-images.githubusercontent.com/52088444/187198188-a68da35c-157f-447e-9434-6aaf88f7c0be.png)
+![image](https://user-images.githubusercontent.com/52088444/187198302-27f1d16b-692d-42ce-8ede-2466d0e2862e.png)
+![image](https://user-images.githubusercontent.com/52088444/187198413-84f7f554-41f6-41a0-b6da-737433520ac6.png)
+*Aplicar Testes de Aceitação(AT's') Para implementar uma users story nós temos que quebrar em tarefas       
+        
+## O que é task (no contexto de XP e Scrum?
+        
+Usr Story: descreve uma funcionalidade que o PO gostaria de ver em seu produto.  Normalmente, isso tem valor que a gente chama de valor de negócio. E além disso, a User Story está na linguagem do cliente, do Stakeholder, do Product owner. O que ela específica, o que deve ser feito. Já uma tarefa vai especificar como é que eu vou implementar essa user story. Ou seja, ela vai especificar como é que nós vamos alcançar com que o sistema faça, aquilo que o usuário determinou através do What, dentro lá da User Story. 
+![image](https://user-images.githubusercontent.com/52088444/187199192-2d3bca3d-82ab-4b22-be47-801825b15f5d.png)
+
+Enquanto a US é definida pelo o PO. As terefas são desenvolvidas pelo o time de desenvolvimento e geralente eles não entendem a linguagem do time.    
+        
+## Característica de uma Task?
+        
+Uma tarefa não deve levar mais tempo que um dia. A tarefa será estimada em horas. Crie tarefas de tamanho apropriado, quebre-as em tamanhos menores. e que a ideia seja que a tarefa não seja menor que uma hora. Não defina tarefa para teste de Unidade, você já usa TDD, o TDD já consiste ter ciclo que implica fazer testes de unidade. Inicialmente o teste falha, depois o teste funciona e depois a gente faz refatoração. Então teste de unidade codificação, refatoração, isso não fica como uma atividade à parte. Ela fica dentro de uma tarefa que é escrever o código, de acordo com o TDD.    
+        
+## Diferenciar User Story de Task        
+Por exemplo a user story está, ela é o requisito. Então ela caracteriza o que deve ser feito pelo sistema. Já a task, ela é como isso vai ser feito.
+        
+Nós vamos ter essa oposição: a user story com o what, o que, e a tarefa com o how, o como. Outra característica é que a user story ela contém muitos tipos de trabalho que devem ser executados. Então por exemplo uma user story para ela existir, vai ter que ter todo trabalho de programação, de testes, projeto de banco dedados, projeto de interface com o usuário, análise e etc. Ou seja, você vai ter que fazer muita coisa, no final você vai ter que fazer bastante coisa, enquanto que a task, ela contém apenas tipo de trabalho, ou seja, enquanto na user story a gente colocou que todos os itens eram "e" lógico do Java, aqui nos estamos pondo "ou" lógico do Java. 
+Então vai caracterizar que a tarefa, ela vai ser só alguma coisa sobre pouco de programação, pouco de teste ou vai ser pouco de testes ou vai ser, é "ou" exclusivo na verdade, porque ela vai conter apenas tipo de trabalho uma tarefa. Outra coisa que caracteriza a user story, como ela escrita na linguagem do domínio da aplicação. 
+Ela é escrita na linguagem que o que o usuário, cliente, qualquer stakeholder entende. Então como ela escrita nessa linguagem que todos, daquele domínio da aplicação, todos entendem, você pode ter feedback deles, do que você está pretendendo fazer. Já a tarefa ela é parte da user story, mas ela é definida na linguagem do time de desenvolvimento, uma linguagem técnica. Então ela não vai permitir feedback do PO ou do cliente ou do usuário ou dos stakeholders, ou seja, ela está escrita numa linguagem técnica. Então não vai existir feedback, nesse sentido, de outras pessoas externas. Como nós havíamos dito, uma user story ela divide-se num conjunto de tarefas. 
+        
+        
+ ![image](https://user-images.githubusercontent.com/52088444/187200621-9eee40ff-8f73-4b7e-99a6-c3765f40812b.png)
+       
+ ![image](https://user-images.githubusercontent.com/52088444/187200656-a8b13f84-f926-4cba-9dff-ff6f4ae0cb2b.png)
+       
+## Tipos de Tasks
+
+        
         
 ## Referencias
 
