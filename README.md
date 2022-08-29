@@ -651,17 +651,39 @@ Para melhor visualização é usado a tabela baseada em Fibonnaci
 A estimativa de User Stories é  muito importante para termos ideia de quais US de maior prioridade cabem dentro de uma iteraçao.        
 A primeira coisa a ser feita é uma estimativa relativa entre as US.        
         
+Se uma US for muito Grande, quebre em menores para poder estimar melhor.        
+Pegue as US de maior prioridade que cabem em uma itteraão, e divida elas em tarefas.
+Faça agora a estimativa de cada uma das tarefas em horas ideiais(sem interrupções).        
+Quando começamos a implementar o ágil é normal erras nas primeiras iterações, mas com o passar do tempo as suas estimativas ficam mais precisas;        
         
         
+- Planning Poker: pode ajudar bastante a fazer a estimativa e para fazer avaliação de risco.        
         
+Quanto tempo vc estima para essa User Story?        
         
+![image](https://user-images.githubusercontent.com/52088444/187224066-010ecd37-863d-4808-90fb-3fb6abd4fd61.png)
+
+Ou seja cada um escolhe e  mostra a carta com a sua opinião. Se as difernças são grandes aparentemente não houve entendimento da US, ou seja a equipe não está alinhada, ele vão jogando até chegar num consenso. Se alguém não consorda tem que mostrar os motivos e joga-se novamente as cartas até chegar a um consendo. 
         
+![image](https://user-images.githubusercontent.com/52088444/187224614-6635c0e9-ca05-4ee4-9139-f790dcba7844.png)
+Números altos indicam qua US precissa ser quebrada. Ou seja é necessário quebrar ela em tarefa . Se der 0 quer dizer que a US pode ser feita em minutos. Caso mostre ? muitas vezes a US não foi bem compreendida.        
         
+Quanto maior a dificuldade para estimar , maior o risco da US. Quanto mais fácil chegar no consendo quer dizer que a equipe entendeu.        
+## Dinâmica de uma Iteração                
+O planejamento é executado em iterações curtas em intervalor de tempo(time box) bem definidos. O scrum chama essa iteração de Sprint.  A iteração não tem essa de esticar o intervalo é curto. Para ser uma Sprint de Scrum : Precisa ser curta(1 semana, 15 dias ou 1 mês). Precisa Entregar valor, ou seja o cliente precisa ver, aprovar , dar  feedback. Precisa conter um ciclo de desenvolvimento completo.       
+A  de User Stories vai de acordo com a velocidade do time.         
+ a execução das tarefas, elas tem que ser acompanhadas durante a interação. Uma forma de você fazer isso, por exemplo, você tem ali a User Story, você tem as tarefas dela, você tem as horas ideais que elas foram estimadas, quantas horas foram efetivamente trabalhadas e a restante. Repara que o primeiro ali, ele cumpriu o que estimou, ele estimou dez e conseguiu fazer ali o dez. O banco de dados, note que ele estimou oito e trabalhou 12 e conseguiu terminar. No controller aconteceu uma coisa diferente, ele estimou 12 mas seis ele conseguiu terminar. Olha o caso do último ali, por exemplo, ele estimou sete, ele trabalhou cinco só que ele estima que para terminar aquela tarefa ainda faltam cinco. Então, a gente sempre trabalha com o quanto que está faltando. Então, lembra que eu falei daquela questão lá das porcentagens e tudo mais? Então, essa é uma forma melhor de fazer, ao invés de falar quantos porcento você já fez. Você pergunta quantas horas ainda faltam para terminar. Pode ser que você tenha estimado cinco e agora faltem dez. Você começou a trabalhar e viu que o problema era bem maior. Não tem problema. O importante é a equipe estar ciente disso e ter tempo suficiente para agir cima desse imprevisto que aconteceu.
         
+![image](https://user-images.githubusercontent.com/52088444/187227381-16f498cd-1eab-4ec8-aeed-1945b4c0ec4e.png)
+
+Então, todo o controle ele acontece cima do quanto já foi trabalhado e o quanto que ainda falta.
         
-        
-        
-        
+![image](https://user-images.githubusercontent.com/52088444/187227860-2de426e7-f7bf-4392-af72-a19e3086f7d2.png)
+Outro tipo de quadro Kanban, eu posso incluir novas colunas        
+![image](https://user-images.githubusercontent.com/52088444/187227985-e21c37f9-822a-4a4a-bb77-d0d4f5612dbf.png)
+
+![image](https://user-images.githubusercontent.com/52088444/187228131-7a37388b-85eb-453c-bee4-f5faef492534.png)
+No mínimo uma vez por dia atualizamos os dados. Se percebermos que o Burndown Chart está saindo do controle é necessário replanejar as informações e começar novamente.         
         
         
 ## Referencias
