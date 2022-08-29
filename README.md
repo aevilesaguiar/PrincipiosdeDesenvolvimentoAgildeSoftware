@@ -596,7 +596,72 @@ Ela é escrita na linguagem que o que o usuário, cliente, qualquer stakeholder 
  ![image](https://user-images.githubusercontent.com/52088444/187200656-a8b13f84-f926-4cba-9dff-ff6f4ae0cb2b.png)
        
 ## Tipos de Tasks
+Maneira de facilitar quebrar as Users Storys em tasks.
+        
+- Tipos de tasks:
+Codifique isso
+Projete aquilo
+Crie dados de teste para isso e aquilo        
+Automatize aquilo outro        
+etc...       
+        
+- Arquitetura em camadas( Se o software tiver essa arquitetura)
+APRESENTAÇÃO(IU)
+REGRAS DE NEGÓCIO
+INFRA & PERSISTENCIA(BD)        
+        
+        
+![image](https://user-images.githubusercontent.com/52088444/187215023-75bb2d3c-7502-49aa-b429-6c2678ceeca8.png)   
+![image](https://user-images.githubusercontent.com/52088444/187215199-410e9e7f-76b9-422f-95e2-816ec37854ca.png)
+Já pela regra de negócios:
+![image](https://user-images.githubusercontent.com/52088444/187215326-2b999a44-994c-4a5f-919c-e542e6b3d7ed.png)
+![image](https://user-images.githubusercontent.com/52088444/187215484-4172d725-a08f-40fa-b085-0481fa059133.png)
+Usando a arquitetura camadas isso facilita muito eu criar tipos de tarefas os mais apropriados para cada user story que eu precisar implementar.   
+        
+## Benefícios em Quebrar User Stories em Tasks
+Não é obrigatório quebrar as US em tASKS. Mas é fortemente indicado que se quebre. Principalmente quando você esta em um time que não está costumado, é super indicado quebrar sistematicamente as US em Tasks , ela ajuda a aperfeiçoar as estimativas em horas dessas tarefas e aí você pode analisar se as tarefas foram feitas em mais ou menos tempo. Promove maior colaboração do time.Dividindo em tarefas ajuda a treinar jovens desenvolvedores. E o mais importante as tasks ajudam a medir o progresso.
+        
+## Erros em Planejamento de Software
+        
+Usando TDD a refatoração, o software se torna mais flexível e aceita mudanças mais fácil.        
+Tentar enxergar além do que você consegue. Não é possivel planejar a longo prazo e sim a curto prazo, 
+        
+![image](https://user-images.githubusercontent.com/52088444/187218132-04880b87-36bb-449f-aa42-38ffb41ca77c.png)
+Impor deadline, (tipo essa tarefa deve ser feita em 1 hora). Quem faz a estimativa não é quem faz o software, quem sabe o tempo é que faz o software.
+Fazer um planejamento que ninguém vai alterar, ou seja tem que fazer um planejamento sabendo que vai mudar.O planejamento é como um guia, uma referencia e não como algo estático.
+        
+## Priorizando User Stories        
 
+Técnicas:
+        
+Planning Game: o objetivo é entregar software que agrega mais valor e o mais rápido possivel. Ou seja de todas as US quais são as mais importantes de serem incluídas com maior priorização.         
+        
+![image](https://user-images.githubusercontent.com/52088444/187219859-eb317d1b-b9ec-4d73-9524-169c62ad16e0.png)
+![image](https://user-images.githubusercontent.com/52088444/187219917-17dfce39-3eaa-418d-a397-6d04e6c2e987.png)
+![image](https://user-images.githubusercontent.com/52088444/187220201-3a6f1a97-fd42-4aa4-a313-2ca169a73da0.png)
+Para melhor visualização é usado a tabela baseada em Fibonnaci
+![image](https://user-images.githubusercontent.com/52088444/187220381-fabcec35-d4a2-4af4-8635-4c5856f77c63.png)
+        
+![image](https://user-images.githubusercontent.com/52088444/187220496-d3fca01f-00dc-4617-a248-f7addb06feee.png)
+       
+ Mas esses valores, eles te dão uma referência para você saber o quê que seria mais prioridade, de você estar incluindo aí numa iteração. Então, depois que essas user stories são ordenadas, elas formam backlog do produto, que as que estiverem na frente vão fazer o backlog da sua iteração, para serem executadas na sua iteração.        
+        
+## Estimando User Stories e Tarefas
+
+A estimativa de User Stories é  muito importante para termos ideia de quais US de maior prioridade cabem dentro de uma iteraçao.        
+A primeira coisa a ser feita é uma estimativa relativa entre as US.        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
 ## Referencias
