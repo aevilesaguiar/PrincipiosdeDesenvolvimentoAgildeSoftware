@@ -695,6 +695,120 @@ No mínimo uma vez por dia atualizamos os dados. Se percebermos que o Burndown C
  - Utilizar ferramentas complicadas demais , enquanto algo simples teria resolvido.       
 Os diagramas são importantes mais que precisam ser utilizados de forma inteligente e alinhados com a necessidade do projeto.        
         
+## Como utilizar diagrama dentro do contexto ágil
+        
+O diagrama não vem do processo como existe no diagrama tradicional, o diagrama tem que surgir da necessidade da equipe, um exemplo não consegui entender as relações do BD. 
+        
+- Qual o objetivo do Diagrama?     
+ Pensar sobre o problema. Comunicar com a equipe( como por exemplo como será o BD, qual a abordagem do BD, como será a arquitetura?), Criar documentação de software.       
+- Quem é o publico?
+Você mesmo , sua equipe, outra equipe, requisito do cliente.        
+
+- Como e onde fazer?        
+No quadro branco, em ferramentas sofisticadas, em ferramentas simples...        
+ex: Icon finder, LucidChart        
+        
+- Qual o ciclo de vida do diagrama?      
+fazer e jogar fora( apenas para informar a equipe, não precisa necessariamente virar uma documentação)        
+será guardado da forma que foi feito, contanto que a equipe seja comunicada, e que as atualizações não interferam nas informaçoes principais.         
+Será atualizado com frequencia(as vezes o cliente/equipe necessita que o diagrma seja contatemente atualizado);       
+- Existem outras decisões:        
+Quais diagramas utilizar? qual o nível de detalhe? qual será o escopo?        
+Lembrando que investir tempo e recursos em umm diagrama é uma decisão da equipe. Argumente com a equipe pois as vezes não vale a pena fazer um diagrama tão elaborado.        
+        
+- Se documentar o software com diagramas for um requisito do cliente, trate isso como uma funcionalidade do software. Da mesma forma que você vai planejar as entregas do seu software, você também vai planejar as entregas dos seu diagramas.        
+        
+## Onde Entram TDD e Refatoração?        
+        
+Diagramas trabalham na organização geral das classes e o TDD no design interno e da API da classe        
+        
+O diagrama pode ser utilizado como uma forma de explorar o problema.        
+        
+Com o diagrama se pensa em uma visão mais global da solução. O TDD e a refatoração fazem a modelagem mais detalhada.  
+com o TDD e a refatoração você vai fazer aquele design mais detalhado, por exemplo, quais os métodos que a classe precisa ter, como que vai ser a construção dessa classe, tudo isso daí pode ser definido no TDD e no diagrama você procura ter aquela visão do todo, como que as classes se conectam e etc, até mesmo pra você poder saber quais mocks você vai precisar criar nas suas classes. E aí, é, baseado no diagrama, você pode, por exemplo, começar refatorando o código existente. Muitas vezes a gente precisa refatorar pra abrir espaço pra nova funcionalidade que a gente precisa.        
+        
+##   Princípios da Modelagem Ágil      
+        
+O 1° principio é criar software funcionando.
+O objetivo secundário é tornar essa entrega de software sustentável.        
+Se um diagrama ajuda na comunicação/consulta vale a pena o investimento.        
+Crie seus diagramas focados no seu trabalho de agora, e vá incrementando quando necessário.        
+Foque no agora, não perca tempo tentando prever requisitos futuros, que ainda podem mudar.      
+  
+## Scrum&XP: Processo Adotado
+        
+- O Processo Proposto        
+        
+Sprint zero(planejamento ágil do projeto- usando eduf) -> Sprint Cycle (Desenvolvimento Agil do produto - posso ter de 1 a um numero indeterminado de sprints) - Produto entregue(Sprint final)        
+![image](https://user-images.githubusercontent.com/52088444/187252741-a1e6b01c-e20c-4be4-b23b-74e455d4cb88.png)
+Então, cada sprint vai ter esse conjunto e a gente chama isso então de desenvolvimento Ágil de produto, porque nós estamos usando o framework do Scrum e desenvolvendo usando o XP. Basicamente, o TDD.
+        
+O processo macro do nosso Scrum&XP é composto apenas de duas partes. Sprint zero que eu faço planejamento Ágil e depois conjunto de sprints que vão implementar aquilo que tinha sido inicialmente definido no Sprint Zero. E, basicamente, seria a visão da aplicação e o backlog do produto. E a cada sprint, nós iremos colocar novas user stories nesse backlog, e iremos construindo funcionalidades ao final. E eu tenho o produto entregue.    
+   
+        
+## Planejamento Inicial: Sprint Zero        
+        
+![image](https://user-images.githubusercontent.com/52088444/187253627-19b80071-49b3-40df-a974-7c81fd959fda.png)
+
+        
+![image](https://user-images.githubusercontent.com/52088444/187253786-1b172701-b8d4-45e4-be22-43b946d0a20d.png)
+![image](https://user-images.githubusercontent.com/52088444/187253867-2dcaf0e1-c320-4101-ab9c-62deeff8b52a.png)
+- SERIA INTERESSANTE ANTES DE COMEÇAR A sPRINT 1         
+![image](https://user-images.githubusercontent.com/52088444/187254151-6bbe306b-92ce-408a-afec-e89c4b5f4813.png)
+        
+        
+## Estrutura de Eventos de um Sprint
+        
+ eventos que podem ocorrer Sprint e essa estrutura de eventos. cADA sPRINT PODE TER DE 1 A 4 SEMANAS, Usualmente 2 semanas 8 horas por dia, 5 dias por semana.        Sprint planing. Basicamente para o sprint planning que é o planejamento que você vai fazer para aquele sprint. O planejamento significa você escolher as user stories que você vai desenvolver, se comprometer que vai desenvolver esse conjunto de user stories quebrar essas user stories tarefas e o grupo escolher as primeiras tarefas, as de maior prioridade para serem desenvolvidas. Normalmente a regra é que sejam duas horas para cada semana. O sprint é de duas semanas, então o sprint planning vai ter quatro horas, se fosse de mês seria dia inteiro.
+ ![image](https://user-images.githubusercontent.com/52088444/187254456-a52f35e7-d9d7-4907-852f-11796f65bf72.png)
+       
+Outro tipo de reunião que existe é a DS-> Daily Scrum.  ou reunião diária do Scrum. Ela é uma reunião bem pequena e rápida, ela é de 15 minutos. E é sempre de 15 minutos.Nela se discute o que cada elemento do grupo vai falar sobre o que tem feito, o que vai fazer, seus problemas e impedimentos que estão ocorrendo. Ela geral, todas essas reuniões são gerenciadas pelo Scrum Master. é para ser discutido rapidamente, mas é uma oportunidade muito boa de se levantar problemas. Se tem algum problema que não dá para resolver alí, aí é outra questão, mas ela só dura 15 minutos. 
+![image](https://user-images.githubusercontent.com/52088444/187254793-f3b2394e-5f8b-43ff-8893-6b489f931210.png)
+ 
+![image](https://user-images.githubusercontent.com/52088444/187255143-895461a9-bd4c-4b53-b413-36c499772627.png)
+a sprint review, a revisão do sprint. É onde o projeto que foi codificado desde do primeiro dia do sprint até o último dia, é onde o time vai apresentar o que desenvolveu, fez os testes de aceitação, está confiante de que o produto está de acordo com o tinha sido definido pelo PO lá nas user stories e vai apresentar. É uma reunião que é aberta para o PO, que vai gerenciar, ela é aberta para o PO e stakeholders interessados no assunto, diversos são convidados e o PO é que vai validar, confirmar. É nesse momento que ele vai confirmar se as user stories foram implementadas de acordo. com o que ele tinha definido. Ou então pode ser que não aceite, ou o teste de aceitação não foi adequado, ou se esperava uma coisa e era outra.
+        
+![image](https://user-images.githubusercontent.com/52088444/187255879-583d7b04-3059-4794-861c-a0538ba19fbc.png)
+Todas as reuniões que falamos estavam basicamente envolvendo o processo de desenvolvimento, como   a sprint Planner que planeja o que você vai fazer no planejamento,  a Daily Scrum que verifica o que está aconecendo no desenvolviemento, o Demo/sprint review vou mostrar se alcançou ou deixou de alcançar.      
+E a retrospectiva tem a ver com o processo de Scrum e XP é nessa hora que nós vamos analisar se nós estamos seguindo direito todo esse processo que nós estamos mostrando. Então normalmente o demo leva duas horas para ser feito e a retrospectiva de duas semanas leva menos de duas horas. O demo normalmente corresponde a uma hora por semana, o sprint é de duas semanas então nós vamos ter duas horas. O sprint é de quatro semanas, então nós vamos ter quatro horas para o demo. A retrospectiva é sempre pouco menos,  por exemplo aqui e geralmente se coloca uma hora e 45 minutos no dobro seria o seu dobro de tempo correspondente. Seria três horas e meia,
+Vamos relembrar aqui então agora essa questão da reunião do daily scrum, o scrum diário. Sobra-se muito pouco tempo aqui né para ser feito alguma coisa por causa dessa reunião então muitas vezes essa reunião pode não existir. Ou então ela vai existir para se tratar basicamente do que vai-se fazer para a apresentação e a retrospectiva.     
+![image](https://user-images.githubusercontent.com/52088444/187258598-fab173d9-b5bc-4787-9cc0-ad6fde4ad701.png)    
+
+Usando o XP se quiser usar o Pear Program eu vou usar o desenvolvimento contínuo, integração contínua, eu vou usar o TDD nesse desenvolvimento daquilo que foi planejado. Eu vou trabalhando em cima do que? Das tarefas. As tarefas que eu quebrei as user stories tarefas é o que eu estarei usando, então esse vai ser o meu desenvolvimento que no final eu vou ter uma funcionalidade entregue, vou ter incremento que vai ser as funcionalidades definidas pelas minhas user stories, que eu acabei de implementar testar, fazer os testes de aceitação e demonstrar para o PO e stakeholders. 
+        
+        
+## Fase 1 do Sprint Planning – Parte 1        
+        
+No sprint planning apenas o PO, o product owner, o scrum master, e o time de desenvolvimento é que fazem parte. O scrum master tem papel essencial todos os tipos de reuniões, ou cerimonias, ou eventos como o sprint planning. É ele que vai comandar, ver a aderência dos membros que estão participando da reunião relação ao Scrum e XP, toda essa, os rituais, os eventos todos, se estamos cumprindo corretamente.
+No nosso caso do sprint planning de duas semanas ela vai ter uma duração de quatro horas. Normalmente são duas horas por semana do sprint. Então se o sprint tem uma semana o sprint planning, o planejamento, vai ser de duas horas, se tem três semanas vai ser de seis, se tem quatro semanas vão ser oito horas        
+        
+O product backlog, também chamado de PBL, quem é dono dele?  É o PO, o product owner, é o responsável pelo product backlog. Que nada mais consiste do que ter todas as user stories que foram definidas lá no sprint zero, e depois, ao longo dos sprints, todas as user stories que ainda não foram implementadas. É papel muito importante de gerenciar isso. O product backlog é muito dinâmico, vão entrando e saindo estórias. Algumas estórias saem porque vão ser desenvolvidas, implementadas, outras estórias saem porque o product owner diz que não faz sentido mais ter aquele tipo de user story, e novas estórias vão entrando, novas estórias vão entrando   ![image](https://user-images.githubusercontent.com/52088444/187260999-29926a2a-b4fc-4fa5-b0d6-c5e47cfa04b0.png)
+![image](https://user-images.githubusercontent.com/52088444/187261519-498019a9-f435-4f9a-a364-4a93416c1e27.png)
+     
+O PO adiciona novas User Stories,        
+As US novas são colocadas no topo  na pilha de US que tem o BV      
+![image](https://user-images.githubusercontent.com/52088444/187261946-e899bbc0-87dc-40ca-bafb-30235e8bdecc.png)
+Procedimento como fazer para introduzir novas US        
+![image](https://user-images.githubusercontent.com/52088444/187262017-98422d7f-6fc7-4625-9609-0b9347ff6fd9.png)
+ 
+![image](https://user-images.githubusercontent.com/52088444/187262314-0244e95c-c84d-4983-b292-2952ee0f8093.png)
+        
+## Fase 2 do Sprint Planning
+Na fase 1 fizemos uma avaliação do Product Backlog, com todas as Novas Users Stories, as mesmas estão no topo       
+![image](https://user-images.githubusercontent.com/52088444/187262732-bc1c508d-32de-466c-ad26-e1918f11cf73.png)
+![image](https://user-images.githubusercontent.com/52088444/187262864-370246aa-d8c3-4e0f-b5a8-853c79c75c8a.png)
+Com essas novas inclusões é necessário         
+Então nesse momento isso ajuda a mais uma conversa, uma conversação, entre o PO e o time, para esclarecer as user stories de tal forma que seja possível definir essa parte Why. Outra coisa que também é fruto dessa conversação, e que também não era obrigatório definir anteriormente, eram os testes de aceitação, eu estou chamando de Acceptation Tests, ou ATs. Mas os testes de aceitação, lá no sprint 0, não era obrigatório fazer pra todas as user stories, por questões de tempo, ou porque estava difícil de definir. Mas agora é a hora. Agora é a hora de definir e complementar os testes de aceitação. É muito importante que os testes de aceitação sejam definidos porque eles é que vão guiar se eu completei a user story de acordo com o que o PO estava querendo, ou não, está certo? Então nessa hora você complementa colocando user stories, testes de aceitação user stories que não tinham nenhum teste de aceitação, ou pondo novos testes de aceitação user stories que já tinham testes de aceitação, ou trocando alguns testes anteriores por outros novos. É isso que a gente faz. Ao fazer isso se ganha conhecimento muito grande sobre as user stories, sobre os seus contextos e o que deve ser feito e o que vai ser cobrado, está certo? E isso vai facilitar a vida na hora do time desenvolver as user stories que eles escolheram, está certo?        
+       
+![image](https://user-images.githubusercontent.com/52088444/187263445-3da97a10-e22d-456a-b481-3b508ac8dee1.png)
+PBL atualizado, com os BVS/tamanho e testes de aceitação.     
+![image](https://user-images.githubusercontent.com/52088444/187263758-9cb86085-aea5-4024-9520-742a5aa99a04.png)
+        
+Agora temos 2 Backlogs. Que é durante o projeto inteiro, que é o Product Backlog, o PBL, está certo, e o que é válido apenas para o sprint, que é o sprint backlog, o backlog do sprint, ou seja, é o conjunto de user stories e respectivas tarefas que devem ser desenvolvidas naquele sprint. E obviamente essas user stories saem do PBL, está certo, ou seja, no nosso PBL momento, no topo está a user story 2.3. Com isso a gente conseguiu então produzir conjunto de user stories, que estamos chamando de sprint backlog, que vai nortear todo o desenvolvimento daquela equipe, e isso, ao longo do sprint.     
+        
+        
+        
+        
         
 ## Referencias
 
