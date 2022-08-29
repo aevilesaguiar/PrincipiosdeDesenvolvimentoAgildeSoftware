@@ -526,8 +526,27 @@ de clientes e stakeholders
 "T" – Testável: em princípio, mesmo se ainda não houver um teste especificado
 para ela
 Explanação e Exemplos
-Suponha um app para tirar foto e identificar animal na natureza! O tipo do usuário é
-um usuário comum, que tem o seguinte fluxo de ações para essa necessidade:
+
+## Time Scrum
+
+Geralmente nós temos 3 tipos de pessoas
+- Scrum Master(SM) - Ele está aqui para conduzir o processo do scrum e XP, ele é que vai garantir que todos os valores e pilares sejam seguidos, pelo o PO , time , stakeholders e clientes.
+- Product Owner(PO) -Ele está interessado  no que fazer (what?)
+- Time de Desenvolvimento- está preocupado em como fazer (HOW)
+
+## Características dos times scrums
+- Time auto-organizavel (escolhe a melhor forma para completar o trabalho);
+- Time multifuncional(competencias necessárias para completar o trabalho, a equipe deve ter diferentes competências)
+- A Equipe não pode ter menos que 3 ou mais que nova
+- entregas iterativas e incrementais, maximizando as oportunidades de feedback, ou seja se os testes de os testes de aceitação que eles tinham previstos foram bem realizados e que aquele resultado realmente ficou de acordo com o que eles esperavam, okay. Mas e se não ficar? Se não ficar, você tem o feedback, e isso vai ser útil pra você tomar novas decisões. E dentro dos pilares do scrum e XP que você tem essa questão da inspeção e da adaptação, você verifica e vê que a coisa não deu certo e adapta. Mas você não fica fazendo isso de qualquer jeito. 
+- Versão parcial potencialmente funcional do produto a cada sprint
+
+
+
+
+
+
+
         
 ## Referencias
 
