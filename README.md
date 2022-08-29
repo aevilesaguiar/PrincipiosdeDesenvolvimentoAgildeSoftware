@@ -684,6 +684,16 @@ Outro tipo de quadro Kanban, eu posso incluir novas colunas
 ![image](https://user-images.githubusercontent.com/52088444/187228131-7a37388b-85eb-453c-bee4-f5faef492534.png)
 No mínimo uma vez por dia atualizamos os dados. Se percebermos que o Burndown Chart está saindo do controle é necessário replanejar as informações e começar novamente.         
 ![image](https://user-images.githubusercontent.com/52088444/187228792-ae59e9f6-8d84-468c-a0a4-1c9496bce41a.png)
+
+## Como não fazer Diagramas
+        
+ - os diagramas podem ser muito úteis, só que as formas que eles são utilizados, às vezes, não são adequadas.
+ - Criar diagramas só por que o processo diz que precisa criar não é adequado, pois é necessário saber o objetivo daquele diagrama       
+ - Não saber as necessidades de quem vai utilizar o diagrama, muitas pessoas precisam de algo simples e o restante será disperdício.       
+ - Não saber o perirdo em que aquele diagrama precisa existir e a frequencia que precisa ser atualizado.       
+ - Adicionar detalhes demais, tira o foco do que realmente precisa, esse excesso de detalhes dificulta o entendimento.       
+ - Utilizar ferramentas complicadas demais , enquanto algo simples teria resolvido.       
+Os diagramas são importantes mais que precisam ser utilizados de forma inteligente e alinhados com a necessidade do projeto.        
         
         
 ## Referencias
